@@ -128,7 +128,7 @@ function MakeTable(){
     quantitysum+=(quantity);
   }
 
-  //Adding discount and Total Sum
+  //Adding Total Sum
   row=newtable.appendTableRow();
   for (let i=0;i<2;i++){
     row.appendTableCell();
